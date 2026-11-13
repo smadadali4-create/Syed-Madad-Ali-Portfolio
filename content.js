@@ -164,6 +164,27 @@ window.PORTFOLIO = {
       links: [{ label: "View on GitHub", url: "https://github.com/smadadali4-create/DATA-SCIENCE-INTERNSHIP-DEVELPORSHUB-CORPORATION-PHASE-2" }]
     },
     {
+      title: "Iris flower classification",
+      description: "Oasis Infobyte internship: five classifiers compared on the Iris dataset, with EDA and cross-validation to pick the winner. An SVM came out best at 96.7% accuracy, and petal size drives almost every prediction.",
+      tags: ["Python", "scikit-learn", "Classification"],
+      preview: "scatter", image: "oasis-iris-classification.png",
+      links: [{ label: "View on GitHub", url: "https://github.com/smadadali4-create/OIBSIP/tree/main/DataScience-Task1-IrisClassification" }]
+    },
+    {
+      title: "Email and SMS spam detection",
+      description: "Oasis Infobyte internship: a TF-IDF text classifier that separates spam from legitimate messages. After removing 403 duplicates, a Linear SVM reached 98.1% accuracy and a spam F1 of 0.92.",
+      tags: ["Python", "NLP", "TF-IDF", "scikit-learn"],
+      preview: "bars", image: "oasis-spam-detection.png",
+      links: [{ label: "View on GitHub", url: "https://github.com/smadadali4-create/OIBSIP/tree/main/DataScience-Task4-EmailSpamDetection" }]
+    },
+    {
+      title: "Sales prediction from ad spend",
+      description: "Oasis Infobyte internship: predicting sales from TV, Radio and Newspaper spend. Polynomial regression reached an R² of 0.987 and showed that TV and Radio work best together while Newspaper adds almost nothing.",
+      tags: ["Python", "scikit-learn", "Regression"],
+      preview: "line", image: "oasis-sales-prediction.png",
+      links: [{ label: "View on GitHub", url: "https://github.com/smadadali4-create/OIBSIP/tree/main/DataScience-Task5-SalesPrediction" }]
+    },
+    {
       title: "ProServe X",
       description: "A web platform where customers find carpenters, plumbers, electricians and other home services in one place.",
       tags: ["Python", "Web app"],
